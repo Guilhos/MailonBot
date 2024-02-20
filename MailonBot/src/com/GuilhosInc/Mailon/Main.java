@@ -17,7 +17,7 @@ public class Main {
 
 	public static void main(String[] args) throws LoginException, InterruptedException {
 		JDA jda = JDABuilder
-				.createLight("ODAwNDEwNDU0NzU2ODE4OTU0.YARuUw.7kNuKUJUZHIcxkh4efIa8bOr1DQ",
+				.createLight("KEY",
 						GatewayIntent.GUILD_MESSAGES,GatewayIntent.GUILD_MESSAGE_REACTIONS)
 				.setActivity(Activity.playing("Use o prefixo " + prefix)).build();
 		
